@@ -1,0 +1,9 @@
+[package]
+name = "rten-convinteger-repro"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.17"
+ort = "=2.0.0-rc.13"
+rten = { git = "https://github.com/robertknight/rten", rev = "e20e3efbcc4cf941f211cc8d617a149da0c51533" }
